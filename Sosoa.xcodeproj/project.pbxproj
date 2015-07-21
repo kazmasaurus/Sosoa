@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		31EB67211B5F069800C28D8A /* Sosoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EB67201B5F069800C28D8A /* Sosoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31EB67271B5F069800C28D8A /* Sosoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB671B1B5F069800C28D8A /* Sosoa.framework */; };
-		31EB672E1B5F069800C28D8A /* SosoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB672D1B5F069800C28D8A /* SosoaTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +27,6 @@
 		31EB67201B5F069800C28D8A /* Sosoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sosoa.h; sourceTree = "<group>"; };
 		31EB67261B5F069800C28D8A /* SosoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB672C1B5F069800C28D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31EB672D1B5F069800C28D8A /* SosoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosoaTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 		31EB672A1B5F069800C28D8A /* SosoaTests */ = {
 			isa = PBXGroup;
 			children = (
-				31EB672D1B5F069800C28D8A /* SosoaTests.swift */,
 				31EB672B1B5F069800C28D8A /* Supporting Files */,
 			);
 			path = SosoaTests;
@@ -216,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31EB672E1B5F069800C28D8A /* SosoaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
