@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		31EB67211B5F069800C28D8A /* Sosoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EB67201B5F069800C28D8A /* Sosoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31EB67271B5F069800C28D8A /* Sosoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB671B1B5F069800C28D8A /* Sosoa.framework */; };
+		31EB67381B5F08C000C28D8A /* CGAffineTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67371B5F08C000C28D8A /* CGAffineTransform.swift */; };
+		31EB673A1B5F092300C28D8A /* CGAffineTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67391B5F092300C28D8A /* CGAffineTransformTests.swift */; };
+		31EB67681B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67671B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,11 @@
 		31EB67201B5F069800C28D8A /* Sosoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sosoa.h; sourceTree = "<group>"; };
 		31EB67261B5F069800C28D8A /* SosoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB672C1B5F069800C28D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31EB67371B5F08C000C28D8A /* CGAffineTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGAffineTransform.swift; sourceTree = "<group>"; };
+		31EB67391B5F092300C28D8A /* CGAffineTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGAffineTransformTests.swift; sourceTree = "<group>"; };
+		31EB67591B5F0A5E00C28D8A /* SmokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EB675C1B5F0A5E00C28D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31EB67671B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGAffineTransformSmokeTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31EB67561B5F0A5E00C28D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +68,7 @@
 			children = (
 				31EB671D1B5F069800C28D8A /* Sosoa */,
 				31EB672A1B5F069800C28D8A /* SosoaTests */,
+				31EB675A1B5F0A5E00C28D8A /* SmokeTests */,
 				31EB671C1B5F069800C28D8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +78,7 @@
 			children = (
 				31EB671B1B5F069800C28D8A /* Sosoa.framework */,
 				31EB67261B5F069800C28D8A /* SosoaTests.xctest */,
+				31EB67591B5F0A5E00C28D8A /* SmokeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +86,7 @@
 		31EB671D1B5F069800C28D8A /* Sosoa */ = {
 			isa = PBXGroup;
 			children = (
+				31EB67371B5F08C000C28D8A /* CGAffineTransform.swift */,
 				31EB67201B5F069800C28D8A /* Sosoa.h */,
 				31EB671E1B5F069800C28D8A /* Supporting Files */,
 			);
@@ -86,6 +104,7 @@
 		31EB672A1B5F069800C28D8A /* SosoaTests */ = {
 			isa = PBXGroup;
 			children = (
+				31EB67391B5F092300C28D8A /* CGAffineTransformTests.swift */,
 				31EB672B1B5F069800C28D8A /* Supporting Files */,
 			);
 			path = SosoaTests;
@@ -95,6 +114,23 @@
 			isa = PBXGroup;
 			children = (
 				31EB672C1B5F069800C28D8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31EB675A1B5F0A5E00C28D8A /* SmokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				31EB67671B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift */,
+				31EB675B1B5F0A5E00C28D8A /* Supporting Files */,
+			);
+			path = SmokeTests;
+			sourceTree = "<group>";
+		};
+		31EB675B1B5F0A5E00C28D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31EB675C1B5F0A5E00C28D8A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,12 +185,30 @@
 			productReference = 31EB67261B5F069800C28D8A /* SosoaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		31EB67581B5F0A5E00C28D8A /* SmokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31EB67611B5F0A5E00C28D8A /* Build configuration list for PBXNativeTarget "SmokeTests" */;
+			buildPhases = (
+				31EB67551B5F0A5E00C28D8A /* Sources */,
+				31EB67561B5F0A5E00C28D8A /* Frameworks */,
+				31EB67571B5F0A5E00C28D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmokeTests;
+			productName = SmokeTests;
+			productReference = 31EB67591B5F0A5E00C28D8A /* SmokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		31EB67121B5F069800C28D8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Zak;
 				TargetAttributes = {
@@ -162,6 +216,9 @@
 						CreatedOnToolsVersion = 6.4;
 					};
 					31EB67251B5F069800C28D8A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					31EB67581B5F0A5E00C28D8A = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -180,6 +237,7 @@
 			targets = (
 				31EB671A1B5F069800C28D8A /* Sosoa */,
 				31EB67251B5F069800C28D8A /* SosoaTests */,
+				31EB67581B5F0A5E00C28D8A /* SmokeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +257,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31EB67571B5F0A5E00C28D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB67381B5F08C000C28D8A /* CGAffineTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB673A1B5F092300C28D8A /* CGAffineTransformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31EB67551B5F0A5E00C28D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EB67681B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +453,36 @@
 			};
 			name = Release;
 		};
+		31EB675F1B5F0A5E00C28D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31EB67601B5F0A5E00C28D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -404,6 +509,15 @@
 			buildConfigurations = (
 				31EB67351B5F069800C28D8A /* Debug */,
 				31EB67361B5F069800C28D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31EB67611B5F0A5E00C28D8A /* Build configuration list for PBXNativeTarget "SmokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EB675F1B5F0A5E00C28D8A /* Debug */,
+				31EB67601B5F0A5E00C28D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
