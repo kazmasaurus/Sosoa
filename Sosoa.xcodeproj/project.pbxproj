@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		31EB67211B5F069800C28D8A /* Sosoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EB67201B5F069800C28D8A /* Sosoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31EB67271B5F069800C28D8A /* Sosoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB671B1B5F069800C28D8A /* Sosoa.framework */; };
+		31EB67381B5F08C000C28D8A /* CGAffineTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67371B5F08C000C28D8A /* CGAffineTransform.swift */; };
+		31EB673A1B5F092300C28D8A /* CGAffineTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67391B5F092300C28D8A /* CGAffineTransformTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 		31EB67201B5F069800C28D8A /* Sosoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sosoa.h; sourceTree = "<group>"; };
 		31EB67261B5F069800C28D8A /* SosoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31EB672C1B5F069800C28D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31EB67371B5F08C000C28D8A /* CGAffineTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGAffineTransform.swift; sourceTree = "<group>"; };
+		31EB67391B5F092300C28D8A /* CGAffineTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGAffineTransformTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		31EB671D1B5F069800C28D8A /* Sosoa */ = {
 			isa = PBXGroup;
 			children = (
+				31EB67371B5F08C000C28D8A /* CGAffineTransform.swift */,
 				31EB67201B5F069800C28D8A /* Sosoa.h */,
 				31EB671E1B5F069800C28D8A /* Supporting Files */,
 			);
@@ -86,6 +91,7 @@
 		31EB672A1B5F069800C28D8A /* SosoaTests */ = {
 			isa = PBXGroup;
 			children = (
+				31EB67391B5F092300C28D8A /* CGAffineTransformTests.swift */,
 				31EB672B1B5F069800C28D8A /* Supporting Files */,
 			);
 			path = SosoaTests;
@@ -206,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB67381B5F08C000C28D8A /* CGAffineTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB673A1B5F092300C28D8A /* CGAffineTransformTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
