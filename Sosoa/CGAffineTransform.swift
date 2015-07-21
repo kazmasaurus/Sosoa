@@ -14,11 +14,6 @@ public func ==(lhs: CGAffineTransform, rhs: CGAffineTransform) -> Bool {
 	return CGAffineTransformEqualToTransform(lhs, rhs)
 }
 
-// MARK: - Concatenation
-public func *(lhs: CGAffineTransform, rhs: CGAffineTransform) -> CGAffineTransform {
-	return lhs.concat(rhs)
-}
-
 extension CGAffineTransform {
 
 	private typealias F = CGFloat // For all the casts
@@ -93,8 +88,6 @@ extension CGAffineTransform {
 	public func invert() -> CGAffineTransform {
 		return CGAffineTransformInvert(self)
 	}
-
-	public var inverse: CGAffineTransform { return invert() }
 
 	// MARK: Concat
 	public func concat(transform: CGAffineTransform) -> CGAffineTransform {

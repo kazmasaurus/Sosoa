@@ -80,11 +80,9 @@ class CGAffineTransformTests: XCTestCase {
 
 	func testInvert() {
 		XCTAssertTrue(transform.invert() == CGAffineTransformInvert(transform))
-		XCTAssertTrue(transform.inverse == transform.invert())
 	}
 
 	func testConcat() {
 		XCTAssertTrue(transform.concat(transform) == CGAffineTransformConcat(transform, transform))
-		XCTAssertTrue(transform * transform == transform.concat(transform))
 	}
 }

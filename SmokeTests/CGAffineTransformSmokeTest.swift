@@ -58,9 +58,7 @@ class CGAffineTransformSmokeTest: XCTestCase {
 		Transform().rotate(xi)
 
 		Transform().invert()
-		Transform().inverse
 
 		Transform().concat(Transform())
-		Transform() * Transform()
 	}
 }

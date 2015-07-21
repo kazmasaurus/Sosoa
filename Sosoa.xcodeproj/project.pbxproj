@@ -208,6 +208,7 @@
 		31EB67121B5F069800C28D8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Zak;
 				TargetAttributes = {
@@ -519,6 +520,7 @@
 				31EB67601B5F0A5E00C28D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
