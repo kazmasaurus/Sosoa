@@ -21,3 +21,7 @@ While we believe that Cocoa and Cocoa Touch will eventually feel native in Swift
 	- Memberwise `translate`, `rotate`, `scale`, `invert`, and `concat` functions
 - `NSIndexPath`:
 	- `Comparable`
+
+## License
+
+Sosoa is licenced under the MIT Licence. See [LICENSE](LICENSE) for details.
