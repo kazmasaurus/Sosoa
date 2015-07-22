@@ -6,15 +6,17 @@
 //  Copyright (c) 2015 Zak. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import XCTest
 
 class NSIndexPathSmokeTest: XCTestCase {
 
-	let path1 = NSIndexPath(forRow: 0, inSection: 0)
-	let path2 = NSIndexPath(forRow: 0, inSection: 1)
+	let path1 = NSIndexPath(index: 0)
+	let path2 = NSIndexPath(index: 1)
 
-	func testSmoke() {
+	func testCompilation() {
+		equatable(path1) // Uhh...?
+		comparable(path1)
 		path1 < path2
 	}
 }

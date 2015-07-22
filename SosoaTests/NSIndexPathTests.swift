@@ -26,5 +26,4 @@ class NSIndexPathTests: XCTestCase {
 		XCTAssert(path1 < path2)
 		XCTAssertFalse(path2 < path1)
 	}
-
 }

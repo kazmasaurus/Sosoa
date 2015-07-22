@@ -11,10 +11,11 @@
 		31EB67271B5F069800C28D8A /* Sosoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EB671B1B5F069800C28D8A /* Sosoa.framework */; };
 		31EB67381B5F08C000C28D8A /* CGAffineTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67371B5F08C000C28D8A /* CGAffineTransform.swift */; };
 		31EB673A1B5F092300C28D8A /* CGAffineTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67391B5F092300C28D8A /* CGAffineTransformTests.swift */; };
-		31EB67681B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67671B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift */; };
 		31EB676A1B5F0F7B00C28D8A /* NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67691B5F0F7B00C28D8A /* NSIndexPath.swift */; };
 		31EB676C1B5F106C00C28D8A /* NSIndexPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB676B1B5F106C00C28D8A /* NSIndexPathTests.swift */; };
 		31EB676E1B5F11B600C28D8A /* NSIndexPathSmokeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB676D1B5F11B600C28D8A /* NSIndexPathSmokeTest.swift */; };
+		31EB67701B5F145000C28D8A /* Conformancers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB676F1B5F145000C28D8A /* Conformancers.swift */; };
+		31EB67711B5F20A600C28D8A /* CGAffineTransformSmokeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB67671B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		31EB67691B5F0F7B00C28D8A /* NSIndexPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSIndexPath.swift; sourceTree = "<group>"; };
 		31EB676B1B5F106C00C28D8A /* NSIndexPathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSIndexPathTests.swift; sourceTree = "<group>"; };
 		31EB676D1B5F11B600C28D8A /* NSIndexPathSmokeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSIndexPathSmokeTest.swift; sourceTree = "<group>"; };
+		31EB676F1B5F145000C28D8A /* Conformancers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conformancers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				31EB67671B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift */,
 				31EB676D1B5F11B600C28D8A /* NSIndexPathSmokeTest.swift */,
+				31EB676F1B5F145000C28D8A /* Conformancers.swift */,
 				31EB675B1B5F0A5E00C28D8A /* Supporting Files */,
 			);
 			path = SmokeTests;
@@ -298,8 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB67711B5F20A600C28D8A /* CGAffineTransformSmokeTest.swift in Sources */,
+				31EB67701B5F145000C28D8A /* Conformancers.swift in Sources */,
 				31EB676E1B5F11B600C28D8A /* NSIndexPathSmokeTest.swift in Sources */,
-				31EB67681B5F0AB100C28D8A /* CGAffineTransformSmokeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
