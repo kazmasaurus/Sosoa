@@ -5,7 +5,7 @@ Have you ever written `indexPath < otherIndexPath` and then groaned when it didn
 
 ## Intent
 
-While we believe that writing Cocoa and Cocoa Touch _usually_ feel- great in Swift (great job Cupertinoites!), there are still holes where common types don't behave correctly under Swift idioms. In the mean time, this is a community driven collection of patches that Apple hasn't gotten to yet.
+While we believe that writing Cocoa and Cocoa Touch _usually_ feels great in Swift (great job Cupertinoites!), there are still holes where common types don't behave correctly under Swift idioms. Until Apple has time to sand down all the rough edges, we hope to provide a community driven collection of patches.
 
 ## Examples
 
