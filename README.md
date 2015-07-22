@@ -1,7 +1,7 @@
 # Sosoa
 A collection of conveniences for writing Cocoa in Swift
 
-Have you ever tried to `indexPath < otherIndexPath` and groaned when it didn't compile?  So have we.
+Have you ever written `indexPath < otherIndexPath` and then groaned when it didn't compile? So have we.
 
 ## Intent
 
@@ -9,15 +9,15 @@ While we believe that Cocoa and Cocoa Touch will eventually feel native in Swift
 
 ## Examples
 
-- Compare `NSNumber` with `<` instead of `.compare`
+- Compare `NSIndexPath` with `<` instead of `.compare`
 - Create `CGAffineTransform`s with `CGAffineTransform(rotate:)` instead of `CGAffineTransformMakeRotation(angle: )`
 
 ## List of current additions
 
 - `CGAffineTransform`:
 	- `Equatable`
-	- `init`s to replace global `Make` function
 	- `identityTransform` constant
-	- Memberwise `translate`, `rotate`, `scale`, `invert`, and `concat`.
-- NSIndexPath:
+	- `init(translatex: y:)`, `init(scalex:, y:)`, and `init(rotate:)`
+	- Memberwise `translate`, `rotate`, `scale`, `invert`, and `concat` functions
+- `NSIndexPath`:
 	- `Comparable`
