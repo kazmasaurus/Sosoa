@@ -15,7 +15,6 @@ class NSIndexPathSmokeTest: XCTestCase {
 	let path2 = NSIndexPath(index: 1)
 
 	func testCompilation() {
-		equatable(path1) // Uhh...?
 		comparable(path1)
 		path1 < path2
 	}
