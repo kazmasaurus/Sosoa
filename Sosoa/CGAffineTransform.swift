@@ -95,7 +95,7 @@ extension CGAffineTransform {
 	}
 }
 
-extension CGAffineTransform: Printable {
+extension CGAffineTransform: CustomStringConvertible {
 	public var description: String { return NSStringFromCGAffineTransform(self) }
 }
 
